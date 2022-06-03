@@ -81,12 +81,12 @@ header .flex-container .item-2 {
 }
 
 .one {
-    padding: 30px 15vw 50px 15vw;
     text-align: center;
+    padding: 20px;
 }
 
 .one h2{
-    margin: 10px;
+    margin: 20px;
     color: #1f2937;
     font-size: 36px;
     font-weight: bold;
@@ -96,19 +96,20 @@ header .flex-container .item-2 {
     color: var(--color_font3);
     font-size: 18px;
     margin-top: 10px;
+    margin-bottom: 25px;
     text-align: center;
 }
 
 .one .flex-container {
     display: flex;
-    gap: 25px;
     justify-content: center;
+    flex-flow: row wrap;
+    gap: 20px;
 }
 
 .one .flex-container .item {
     border: 3px solid var(--color3);
     border-radius: 10px;
-    object-fit: cover;
 }
 
 .two {
@@ -121,8 +122,8 @@ header .flex-container .item-2 {
     color: var(--color_font3);
     font-style: italic;
     text-align: center;
-
 }
+
 .two .cite {
     color: var(--color_font3);
     font-size: 18px;
@@ -133,10 +134,9 @@ header .flex-container .item-2 {
 .three {
     margin: 60px 15vw 60px 15vw;
     background-color: var(--color3);
-    height: 100px;
     border-radius: 5px;
     color: var(--color_font1);
-
+    padding: 30px;
     display: flex;
     align-items: center;
 }
@@ -154,7 +154,6 @@ header .flex-container .item-2 {
     font-size: 18px;
     border: 2px solid white;
 }
-
 
 footer {
     display: flex;
