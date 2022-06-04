@@ -22,6 +22,7 @@ button {
     padding: 5px 20px 5px 20px;
     border-radius: 6px;
     border: 0px solid;
+    font-size: 18px;
 }
 
 header {
@@ -48,26 +49,34 @@ header {
     font-size: 18px;
 }
 
-header .flex-container {
+header .principal {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
     gap: 20px;
-
     padding-top: 30px;
 }
 
-header .flex-container h1 {
+header .principal h1 {
     font-size: 48px;
     font-weight: bold;
     color: var(--color_font1);
 }
 
-header .flex-container .item-1 {
+header .principal .item-1 {
     font-size: 18px;
     color: var(--color_font2);
     padding: 10px;
     max-width: 300px;
+}
+
+header .principal button {
+    margin-top: 12px;
+}
+
+header .principal button:hover {
+    color: var(--color_font3);
+    background-color: var(--color_font1);
 }
 
 .one {
@@ -145,12 +154,21 @@ header .flex-container .item-1 {
     border: 2px solid white;
 }
 
+.three button:hover {
+    background-color: white;
+    color: var(--color3);
+    border: 2px solid white;
+}
+
 footer {
-    display: flex;
+    text-align: center;
     background-color: var(--color1);
-    height: 5vw;
-    align-items: center;
-    justify-content: center;
+    height: 4vw;
     color: white;
     font-weight: bold;
+}
+footer p {
+    background-color: var(--color1);
+    padding-top: 8px;
+    
 }
