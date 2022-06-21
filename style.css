@@ -163,12 +163,11 @@ header .principal button:hover {
 footer {
     text-align: center;
     background-color: var(--color1);
-    height: 4vw;
     color: white;
     font-weight: bold;
+    padding: 10px;
+    font-size: 18px
 }
-footer p {
-    background-color: var(--color1);
-    padding-top: 8px;
-    
+footer img {
+    width: 18px;
 }
